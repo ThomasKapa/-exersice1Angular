@@ -1,0 +1,10 @@
+<h3>User List</h3>
+<hr>
+<ul>
+    @for (user of users; track $index){
+        <li>
+           <span> {{user.firstName}} {{user.lastName}} </span>
+        </li>
+
+    }
+</ul>
